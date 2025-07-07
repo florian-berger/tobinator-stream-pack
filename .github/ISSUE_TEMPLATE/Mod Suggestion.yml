@@ -1,0 +1,39 @@
+name: "Mod suggestion"
+description: "You are missing a mod? Fill this form and I will take a look at it - after clarifying with Tobinator!"
+title: ""
+labels: ["mod suggestion"]
+assignees:
+  - florian-berger
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this recipe suggestion! Please take the time and fill all fields.
+
+  - type: input
+    id: suggested-mod
+    attributes:
+      label: Suggested mod
+      description: Please name the modification you want to be inside of the modpack.
+    validations:
+      required: true
+
+  - type: input
+    id: mod-link
+    attributes:
+      label: Link to CurseForge
+      description: Please post a link to the mod on CurseForge.
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/[...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: further-data
+    attributes:
+      label: Further information / Screenshots / Logs
+      description: |
+        If you have any further information, screenshots, or log files, you can enter them here. 
+        To attach images, click this area to highlight it and then drag your files into it.
+    validations:
+      required: false

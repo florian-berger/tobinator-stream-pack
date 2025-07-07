@@ -1,0 +1,54 @@
+name: "Bug Report"
+description: "File a bug report if something goes wrong."
+title: ""
+labels: ["bug"]
+assignees:
+  - florian-berger
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! It is helpful to fill all of the fields below.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the issue as detailed as you can remember.
+      placeholder: Tell me what happened!
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Please describe the steps that are required to reproduce the issue
+      placeholder: Tell me how to reproduce!
+    validations:
+      required: true
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the modpack are you playing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-mods
+    attributes:
+      label: Additional mods
+      description: Please give a list of additionally installed mods.
+
+  - type: textarea
+    id: further-data
+    attributes:
+      label: Further information / Screenshots / Logs
+      description: |
+        If you have any further information, screenshots, or log files, you can enter them here. 
+        To attach images, click this area to highlight it and then drag your files into it.
+    validations:
+      required: false
