@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: "File a bug report if something goes wrong."
-title: ""
+title: "Bug: "
 labels: ["bug"]
 assignees:
   - florian-berger

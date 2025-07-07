@@ -1,6 +1,6 @@
 name: "Mod suggestion"
 description: "You are missing a mod? Fill this form and I will take a look at it - after clarifying with Tobinator!"
-title: ""
+title: "Suggestion: "
 labels: ["mod suggestion"]
 assignees:
   - florian-berger
